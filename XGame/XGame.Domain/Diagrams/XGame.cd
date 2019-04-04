@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XGame.Domain.Entities.Plataforma" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Plataforma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XGame.Domain.Entities.Jogador" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEACAAAAAAAAAAAAAAACAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>Entities\Jogador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XGame.Domain.Entities.Jogo" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABgAAAAAAAAAIAAAAAQAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Entities\Jogo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XGame.Domain.Entities.JogoPlataforma">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\JogoPlataforma.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="jogo" />
+      <Property Name="plataforma" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XGame.Domain.Entities.MeusJogo" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAABAAAAEAAAAAABAAAAAAAAAIAA=</HashCode>
+      <FileName>Entities\MeusJogo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JogoPlataforma" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
