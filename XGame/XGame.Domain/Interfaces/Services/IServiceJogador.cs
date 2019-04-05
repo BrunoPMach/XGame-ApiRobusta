@@ -8,6 +8,6 @@ namespace XGame.Domain.Interfaces.Services
         AutenticarJogadorResponse AutenticarJogador(AutenticarJogadorRequest request);
 
         AdicionarJogadorResponse AdicionarJogador(AdicionarJogadorRequest request);
-        
+
     }
 }
